@@ -1,0 +1,68 @@
+/* font-family: "M PLUS 2" */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap');
+
+body {
+    background-image: url(../images/NA.png);
+    background-size: cover;
+    /* background: skyblue; */
+}
+
+.ttl {
+    color: white;
+    background: rgba(120, 120, 120, 0.7);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+    /* font-style: italic; */
+    /* font-family: "Hiragino Mincho ProN", serif; */
+    text-align: center;
+}
+
+.lyrics {
+
+    color: #111;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 3;
+}
+
+.lyrics p {
+    margin: 10px 0;
+}
+
+.lyrics span {
+    display: inline-block;
+
+    background: rgba(255, 255, 255, 0.25);
+
+    padding: 1px 15px;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.movie {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.link a {
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
